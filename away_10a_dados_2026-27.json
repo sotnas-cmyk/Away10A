@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0.0",
+  "project": "Away 10A — Jogos Fora",
+  "season": "2026/27",
+  "last_updated": "2026-10-14",
+  "editorial_status_definitions": {
+    "published_info": "Informação encontrada numa fonte identificável; não equivale a recomendação.",
+    "needs_confirmation": "Informação que precisa de ser reconfirmada para a data/contexto da deslocação.",
+    "not_visited_or_not_documented": "Não existe experiência editorial registada.",
+    "not_assessed": "A adequação a adeptos não foi avaliada; não deve ser inferida."
+  },
+  "matches": [
+    {
+      "id": "2026-10-30-casa-pia-sporting",
+      "season": "2026/27",
+      "date": "2026-10-30",
+      "kickoff_local": "20:15",
+      "home_team": "Casa Pia AC",
+      "away_team": "Sporting CP",
+      "destination": "Rio Maior",
+      "venue": "Estádio Municipal de Rio Maior",
+      "venue_status": "published_calendar_to_reconfirm",
+      "fixture_status": "official_calendar_consulted_reconfirm_before_publication",
+      "place_ids": [
+        "rio-maior-lusitano",
+        "rio-maior-cantinho-da-serra",
+        "rio-maior-magirus",
+        "rio-maior-mcdonalds",
+        "rio-maior-recantao",
+        "rio-maior-100-gramas"
+      ],
+      "route": {
+        "origin": "Lisboa, Portugal",
+        "destination": "Estádio Municipal de Rio Maior, Portugal",
+        "mode": "driving",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Lisboa%2C%20Portugal&destination=Est%C3%A1dio%20Municipal%20de%20Rio%20Maior%2C%20Portugal&travelmode=driving"
+      },
+      "access_information": {
+        "status": "awaiting_match_specific_info",
+        "notes": "Não usar instruções de jogos anteriores como se fossem atuais. Confirmar indicações do clube e das autoridades perto da data."
+      }
+    },
+    {
+      "id": "2026-11-29-fc-porto-sporting",
+      "season": "2026/27",
+      "date": "2026-11-29",
+      "kickoff_local": "20:30",
+      "home_team": "FC Porto",
+      "away_team": "Sporting CP",
+      "destination": "Porto",
+      "venue": "Estádio do Dragão",
+      "venue_status": "published_calendar_to_reconfirm",
+      "fixture_status": "official_calendar_consulted_reconfirm_before_publication",
+      "place_ids": [
+        "a1-area-servico-leiria",
+        "porto-brasao-antas",
+        "porto-barcarola-alameda"
+      ],
+      "route": {
+        "origin": "Lisboa, Portugal",
+        "destination": "Porto, Portugal",
+        "mode": "driving",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Lisboa%2C%20Portugal&destination=Porto%2C%20Portugal&travelmode=driving"
+      },
+      "access_information": {
+        "status": "awaiting_match_specific_info",
+        "notes": "Confirmar acessos para adeptos visitantes, estacionamento e eventuais condicionamentos junto do clube e das autoridades."
+      }
+    },
+    {
+      "id": "2027-01-24-vitoria-sporting",
+      "season": "2026/27",
+      "date": "2027-01-24",
+      "kickoff_local": null,
+      "home_team": "Vitória SC",
+      "away_team": "Sporting CP",
+      "destination": "Guimarães",
+      "venue": "Estádio D. Afonso Henriques",
+      "venue_status": "to_confirm",
+      "fixture_status": "date_from_editorial_calendar_reconfirm",
+      "place_ids": [
+        "guimaraes-oliveiras",
+        "guimaraes-bom-amigo",
+        "guimaraes-buxa",
+        "guimaraes-taberna-trovador",
+        "guimaraes-casa-costinhas",
+        "guimaraes-rei-cachorros",
+        "guimaraes-pregaria",
+        "guimaraes-nova-camir"
+      ],
+      "route": {
+        "origin": "Lisboa, Portugal",
+        "destination": "Guimarães, Portugal",
+        "mode": "driving",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Lisboa%2C%20Portugal&destination=Guimar%C3%A3es%2C%20Portugal&travelmode=driving"
+      },
+      "access_information": {
+        "status": "awaiting_fixture_confirmation",
+        "notes": "Confirmar data, hora, recinto e indicações de acesso antes de planear a deslocação."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "guimaraes-oliveiras",
+      "name": "Restaurante Oliveiras",
+      "category": "restaurante",
+      "region": "Guimarães",
+      "address": "Rua do Sairrão (EN 206), n.º 400 · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "O estabelecimento publica informação sobre cozinha regional, pratos do dia ao almoço durante a semana e estacionamento gratuito à porta.",
+      "source_status": "published_info",
+      "source_status_label": "Informação publicada",
+      "verification_notes": "Falta confirmar Horário para a data do jogo, preços actuais e tempo efectivo até ao estádio.",
+      "sources": [
+        {
+          "label": "Site oficial",
+          "url": "https://restauranteoliveiras.pt/"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Oliveiras+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-bom-amigo",
+      "name": "Restaurante Bom Amigo",
+      "category": "restaurante",
+      "region": "Guimarães",
+      "address": "Rua Manuel Peixoto, n.º 230 · Creixomil, Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "O site oficial anuncia três salas, capacidade total de 300 pessoas e menus completos a partir de 16 € por pessoa.",
+      "source_status": "published_info",
+      "source_status_label": "Informação publicada",
+      "verification_notes": "Falta confirmar Preço e menu actuais, disponibilidade, reserva e condições de estacionamento no dia.",
+      "sources": [
+        {
+          "label": "Site oficial",
+          "url": "https://www.restaurantebomamigo.com/"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Bom+Amigo+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-buxa",
+      "name": "Restaurante Buxa",
+      "category": "restaurante",
+      "region": "Guimarães",
+      "address": "Largo da Oliveira · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Uma opção a investigar para quem pretende combinar uma refeição com algum tempo no centro histórico.",
+      "source_status": "published_info",
+      "source_status_label": "Dados a reconfirmar",
+      "verification_notes": "Falta confirmar Horários, preços, disponibilidade e percurso pedonal desde o estacionamento.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Buxa+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-taberna-trovador",
+      "name": "Taberna Trovador",
+      "category": "petiscos",
+      "region": "Guimarães",
+      "address": "Largo do Trovador, n.º 10 · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "A informação publicada descreve cozinha portuguesa, petiscos e serviço de almoço e jantar.",
+      "source_status": "published_info",
+      "source_status_label": "Dados a reconfirmar",
+      "verification_notes": "Falta confirmar Preços, métodos de pagamento e condições para pequenos grupos.",
+      "sources": [
+        {
+          "label": "Site do estabelecimento",
+          "url": "https://tabernatrovador.eatbu.com/?lang=pt"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Taberna+Trovador+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-casa-costinhas",
+      "name": "Casa Costinhas",
+      "category": "docaria",
+      "region": "Guimarães",
+      "address": "Rua de Santa Maria, n.º 68 · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Uma ficha institucional associa a casa à doçaria regional vimaranense, incluindo tortas de Guimarães e toucinho-do-céu.",
+      "source_status": "published_info",
+      "source_status_label": "Horário por confirmar",
+      "verification_notes": "Falta confirmar Horário actual e disponibilidade dos produtos. Não assumir abertura ao fim de semana.",
+      "sources": [
+        {
+          "label": "Ficha institucional",
+          "url": "https://www.comerciocomhistoria.gov.pt/listings/casa-costynhas-doces-regionais-e-conventuais-lda-4424/"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Casa+Costinhas+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "docaria",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-lusitano",
+      "name": "Restaurante Lusitano",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Av. dos Combatentes · Rio Maior",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "O portal de Turismo de Rio Maior lista cozinha portuguesa/regional e indica serviço de segunda-feira a sábado, incluindo jantar.",
+      "source_status": "published_info",
+      "source_status_label": "Informação institucional publicada",
+      "verification_notes": "Falta confirmar Horário e carta para o dia do jogo, preço actual, reserva e tempo de deslocação até ao Estádio Municipal.",
+      "sources": [
+        {
+          "label": "Ficha Turismo Rio Maior",
+          "url": "https://www.turismoriomaior.pt/conte.php?a=140&esclang=en"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Lusitano+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-cantinho-da-serra",
+      "name": "Cantinho da Serra",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Alto da Serra · EN1 · Rio Maior",
+      "editorial_context": [
+        "antes",
+        "durante"
+      ],
+      "summary": "O portal de Turismo de Rio Maior refere especialidades regionais, três salas e capacidade indicada para cerca de 100 pessoas.",
+      "source_status": "published_info",
+      "source_status_label": "Informação institucional publicada",
+      "verification_notes": "Falta confirmar Reserva, preços actuais, horário de jantar e se o desvio compensa para a hora de chegada ao estádio. Não é uma paragem obrigatória.",
+      "sources": [
+        {
+          "label": "Ficha Turismo Rio Maior",
+          "url": "https://www.turismoriomaior.pt/conte.php?a=30"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cantinho+da+Serra+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-magirus",
+      "name": "Magirus",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Av. dos Combatentes, 65 · Rio Maior",
+      "editorial_context": [
+        "antes",
+        "durante"
+      ],
+      "summary": "O site do estabelecimento descreve padaria, pastelaria e culinária portuguesa. Publica horário diário das 05h00 às 20h00.",
+      "source_status": "published_info",
+      "source_status_label": "Informação publicada pelo estabelecimento",
+      "verification_notes": "Falta confirmar Se a cozinha está a servir no momento pretendido e se o horário se mantém na data do jogo. Como o início indicado é às 20h15, não assumir que serve uma refeição perto da hora de entrada.",
+      "sources": [
+        {
+          "label": "Site oficial",
+          "url": "https://magirus.pt/restaurante/"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Magirus+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "cafe_pastelaria",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-mcdonalds",
+      "name": "McDonald's Rio Maior",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Lugar do Espadanal · Av. Dr. Mário Soares",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "O site oficial indica restaurante até às 00h00 e McDrive até às 02h00, incluindo à sexta-feira.",
+      "source_status": "published_info",
+      "source_status_label": "Horário publicado no site oficial",
+      "verification_notes": "Utilidade possível Alternativa prática antes ou depois do jogo. Confirmar acessos rodoviários e eventuais alterações de horário no próprio dia.",
+      "sources": [
+        {
+          "label": "Site oficial e horários",
+          "url": "https://www.mcdonalds.pt/restaurantes/rio-maior"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonalds+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "comida_rapida",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-recantao",
+      "name": "Recantão",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Av. dos Combatentes · Rio Maior",
+      "editorial_context": [
+        "antes"
+      ],
+      "summary": "O portal de Turismo de Rio Maior indica grelhados, três salas, capacidade total anunciada de 96 pessoas e preço médio de referência de 20 €.",
+      "source_status": "published_info",
+      "source_status_label": "Ficha turística publicada",
+      "verification_notes": "Para confirmar Reserva, preços actuais e serviço no dia do jogo. O horário publicado inclui jantar de sexta-feira, mas deve ser reconfirmado.",
+      "sources": [
+        {
+          "label": "Ficha Turismo Rio Maior",
+          "url": "https://www.turismoriomaior.pt/conte.php?a=50&esclang=en"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Recantao+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "rio-maior-100-gramas",
+      "name": "100 Gramas & Companhia",
+      "category": "restaurante",
+      "region": "Rio Maior",
+      "address": "Rua Poeta Ruy Belo, 23 · Rio Maior",
+      "editorial_context": [
+        "antes"
+      ],
+      "summary": "As plataformas de restauração identificam cozinha tradicional portuguesa, menu e possibilidade de reserva.",
+      "source_status": "published_info",
+      "source_status_label": "Presença e informação de reserva publicadas",
+      "verification_notes": "Para confirmar Horário de sexta-feira, disponibilidade, preço actual e duração da refeição antes de planear a chegada ao estádio.",
+      "sources": [
+        {
+          "label": "Menu e reserva",
+          "url": "https://www.thefork.pt/restaurante/100-gramas-companhia-r814386"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=100+Gramas+Companhia+Rio+Maior"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "a1-area-servico-leiria",
+      "name": "Área de Serviço de Leiria",
+      "category": "paragem",
+      "region": "Leiria/A1",
+      "address": "A1, km 125,7 · Sentido Lisboa–Porto",
+      "editorial_context": [
+        "durante"
+      ],
+      "summary": "A Brisa identifica restauração, combustível, loja de conveniência, estacionamento e instalações sanitárias. A restauração é anunciada como aberta 24 horas, com horários próprios para a cozinha.",
+      "source_status": "published_info",
+      "source_status_label": "Serviços publicados",
+      "verification_notes": "Falta confirmar Se esta paragem faz sentido para o percurso, hora de saída e trânsito previstos.",
+      "sources": [
+        {
+          "label": "Fonte Brisa",
+          "url": "https://www.brisaconcessao.pt/pt/clientes/areas-de-servico/a1/area-de-servico-de-leiria-sentido-lisboa-porto"
+        },
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Area+de+Servico+de+Leiria+A1+sentido+Porto"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": null,
+      "route_role": "paragem_viagem",
+      "route_position": "No caminho"
+    },
+    {
+      "id": "porto-brasao-antas",
+      "name": "Brasão Antas",
+      "category": "restaurante",
+      "region": "Porto",
+      "address": "Av. de Fernão de Magalhães, 1530 · Porto",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Restaurante na zona das Antas; opção a avaliar para uma refeição no Porto antes ou depois do jogo.",
+      "source_status": "published_info",
+      "source_status_label": "Identificado em pesquisa; confirmar antes da deslocação",
+      "verification_notes": "A localização é na zona das Antas, mas confirmar o tempo real de deslocação e a disponibilidade no dia do jogo.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Brasao+Antas+Porto"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": "2026-10-13",
+      "route_role": "refeicao",
+      "route_position": "No destino"
+    },
+    {
+      "id": "porto-barcarola-alameda",
+      "name": "Barcarola — Alameda",
+      "category": "comida rápida",
+      "region": "Porto",
+      "address": "Rua dos Campeões Europeus · Centro Comercial Alameda, loja 310 · Porto",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Opção de restauração no Centro Comercial Alameda, útil para considerar uma refeição prática na zona do estádio.",
+      "source_status": "published_info",
+      "source_status_label": "Identificado em pesquisa; confirmar antes da deslocação",
+      "verification_notes": "Confirmar horário do centro comercial e do restaurante para o dia do jogo.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Barcarola+Alameda+Porto"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": "2026-10-13",
+      "route_role": "comida_rapida",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-rei-cachorros",
+      "name": "O Rei dos Cachorros",
+      "category": "comida rápida",
+      "region": "Guimarães",
+      "address": "Rua Rainha Dona Maria II · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Estabelecimento identificado como opção de cachorros; alternativa para comer algo rápido no centro de Guimarães.",
+      "source_status": "published_info",
+      "source_status_label": "Identificado em pesquisa; confirmar antes da deslocação",
+      "verification_notes": "Confirmar horário e localização face ao estádio e ao estacionamento escolhido.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=O+Rei+dos+Cachorros+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": "2026-10-13",
+      "route_role": "comida_rapida",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-pregaria",
+      "name": "Pregaria de Guimarães",
+      "category": "comida rápida",
+      "region": "Guimarães",
+      "address": "Av. Dom Afonso Henriques, 15 · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Estabelecimento identificado como pregaria, relevante para quem procura uma refeição informal e rápida.",
+      "source_status": "published_info",
+      "source_status_label": "Identificado em pesquisa; confirmar antes da deslocação",
+      "verification_notes": "Confirmar horário, menu e disponibilidade na data do jogo.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pregaria+de+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": "2026-10-13",
+      "route_role": "comida_rapida",
+      "route_position": "No destino"
+    },
+    {
+      "id": "guimaraes-nova-camir",
+      "name": "Nova Camir",
+      "category": "café/pastelaria",
+      "region": "Guimarães",
+      "address": "Largo do Toural, 105 · Guimarães",
+      "editorial_context": [
+        "antes",
+        "depois"
+      ],
+      "summary": "Confeitaria no Largo do Toural; possível opção para café, pastelaria ou uma paragem ligeira no centro.",
+      "source_status": "published_info",
+      "source_status_label": "Identificado em pesquisa; confirmar antes da deslocação",
+      "verification_notes": "Confirmar horário e avaliar o desvio até ao estádio conforme o plano de estacionamento.",
+      "sources": [
+        {
+          "label": "Ver no mapa",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nova+Camir+Guimaraes"
+        }
+      ],
+      "editorial_experience": {
+        "status": "not_visited_or_not_documented",
+        "notes": null
+      },
+      "supporter_suitability": {
+        "status": "not_assessed",
+        "notes": null
+      },
+      "last_verified": "2026-10-13",
+      "route_role": "cafe_pastelaria",
+      "route_position": "No destino"
+    }
+  ]
+}
